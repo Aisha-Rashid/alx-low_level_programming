@@ -7,13 +7,11 @@
  */
 int main(void)
 {
-	char alph[26] = "abcdefghijklmnopqrstuvwxyz";
+	char alph[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	int a;
 
-	for (a = 0; a <= 26; a++)
+	for (a = 0; a <= 52; a++)
 	{
-		putchar(alph[a]);
-		a = toupper(a);
 		putchar(alph[a]);
 	}
 	putchar ('\n');
